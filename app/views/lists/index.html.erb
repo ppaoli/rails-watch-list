@@ -1,0 +1,11 @@
+<div  class="container mt-4">
+<h1>All Lists</h1>
+
+  <ul>
+  <% @lists.each do |list| %>
+    <li><%= list.name %></li>
+    <% end %>
+
+  </ul>
+
+</div>
